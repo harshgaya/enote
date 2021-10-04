@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electrical"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar2"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+
+        android:background="?attr/colorAccent"
+        app:theme="@style/ToolBarStyle"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar2"
+        android:layout_above="@+id/adView"
+        >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toolbar2"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="7dp"
+
+
+            >
+
+
+
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+
+                            <TextView
+                                android:id="@+id/sweta"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Syllabus"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+                                android:id="@+id/designer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC,AC,Magnetic circuit,Machines,Transformer"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/mecanicssyllabus"
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical1"/>
+
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+                            <TextView
+                                android:id="@+id/harsh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Introduction"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+                                android:id="@+id/developer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sources of energy, steam, hydro"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical2"/>
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Network1"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Current ,EMF,Symbols,Circuit"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical3"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Network2"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Series Parallel Connection,Node Voltage"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical4"/>
+
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Network3"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Node Current,Mesh Voltage"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical5"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Network4"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Superposition Theorem"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical6"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Network5"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Thevnin theorem,Maximum Power Transfer"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical7"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Network6"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Norton Theorem,Star Delta"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical8"/>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Network7"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Star Delta Conversion"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical9"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Single Phase AC1"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="AC voltage and current ,EMF generation"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical10"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Single Phase AC2"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Average and RMS values,Form and Peak Factor,Phase "
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical11"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Single Phase AC3"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Resistive,Inductive,Capacitive Circuit"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical12"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Single Phase AC4"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Power factor,Q factor,R-L,R-C,R-L-C circuit"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical13"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Single Phase AC5"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="R-L in Parallel,Impedance,Admittance"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical14"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Three Phase1"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Generation of three phase EMF,Waveform,Phases"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical15"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Three Phase2"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Star Delta Connection,Power"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical16"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Three Phase AC3"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Power measurement,Two wattmeter method"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical17"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Magnetic Circuit1"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Magnetic Field,Important Rules"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical18"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Magnetic Circuit2"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Magnetic Circuits,EMF,Hystresis loop,Reluctance,Ohm law"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical19"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Magnetic Circuit3"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Magnetic circuits Questions"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical20"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Machines1"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Review of physics,Torque,Work and Power"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical21"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Machines2"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Arrangement,winding of DC Machines"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical22"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Machines3"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Average EMF generated,Types of Excitation"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical23"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Machines4"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Speed of motor,Power loss,Torque of motor"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical24"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Machines5"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Speed control of motor"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical25"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="DC Machines6"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Armature Control"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical26"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Transformers1"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Introduction,Ideal transformers,Flux,EMF"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical27"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Transformers2"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Transformer on load,Transformation factor"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical28"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Transformer3"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Magnetic leakage,Reducing leakage flux"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical29"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Transformer4"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Equivalent circuit,Efficiency of transformer"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical30"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Transformer5"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Open and Short circuit test,Auto transformer"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical31"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Previous Year Questions"
+                                android:textSize="18sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorBlack"
+
+
+                                android:layout_marginStart="20dp"/>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2015,2016,2017,2018"
+                                android:textSize="15sp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="@color/colorBlack"
+                                android:layout_marginStart="20dp"/>
+                            <Button
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="@android:color/transparent"
+                                android:onClick="electrical32"/>
+
+
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>
